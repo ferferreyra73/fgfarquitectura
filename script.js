@@ -264,7 +264,8 @@ const galleries = {
   // ── FRIZOLO · R5-486 Casa Frizolo · Córdoba ─────────────────────────────
   // Carpeta: img/frizolo/
   FRIZOLO: [
-    { type: 'img', src: 'img/frizolo/lamina-diseno.jpg',        caption: 'R5-486 — Lámina · Planta, Sección, Axonométrico y Evolución Volumétrica · Materiales' },
+    { type: 'img', src: 'img/frizolo/maqueta-01.jpg',  caption: 'R5-486 — Maqueta · Volúmenes y terrazas · Córdoba' },
+    { type: 'img', src: 'img/frizolo/lamina-diseno.jpg', caption: 'R5-486 — Lámina · Planta, Sección, Axonométrico y Evolución Volumétrica · Materiales' },
     { type: 'img', src: 'img/frizolo/ext-04.jpg',             caption: 'R5-486 — Vista aérea · Conjunto con jardín · Córdoba' },
     { type: 'img', src: 'img/frizolo/ext-05.jpg',             caption: 'R5-486 Casa Frizolo — Perspectiva exterior · Córdoba' },
     { type: 'img', src: 'img/frizolo/plano-pb.jpg',           caption: 'R5-486 Casa Frizolo — Planta Baja · 250 m²' },
