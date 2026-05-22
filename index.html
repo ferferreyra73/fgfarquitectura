@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FGF arquitectura — Arquitectura & Diseño</title>
+  <meta name="description" content="FGF arquitectura — estudio especializado en diseño residencial, comercial y urbano." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAVEGACIÓN -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <a href="#inicio" class="logo">FGF<span>arquitectura</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#proyectos">Proyectos</a></li>
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#contacto" class="btn-nav">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="inicio" class="hero">
+    <div class="hero-bg">
+      <video class="hero-video" autoplay muted loop playsinline preload="auto">
+        <source src="video/ia-video-01.mp4" type="video/mp4">
+      </video>
+      <div class="hero-overlay"></div>
+      <div class="hero-grid"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-eyebrow">Arquitectura · Diseño · Espacio</p>
+      <h1>Creamos espacios<br /><em>que perduran</em></h1>
+      <p class="hero-sub">Transformamos ideas en arquitectura que equilibra forma, función y emoción.</p>
+      <div class="hero-actions">
+        <a href="#proyectos" class="btn-primary">Ver proyectos</a>
+        <a href="#contacto" class="btn-ghost">Contactar</a>
+      </div>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><span class="stat-num">32</span><span class="stat-label">Proyectos</span></div>
+      <div class="stat-sep"></div>
+      <div class="stat"><span class="stat-num">23</span><span class="stat-label">Años</span></div>
+      <div class="stat-sep"></div>
+      <div class="stat"><span class="stat-num">3.000 m²</span><span class="stat-label">Escala máx.</span></div>
+    </div>
+  </section>
+
+  <!-- PROYECTOS -->
+  <section id="proyectos" class="section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Portfolio</p>
+        <h2>Proyectos destacados</h2>
+        <p class="section-desc">Una selección de nuestros trabajos más representativos.</p>
+      </div>
+
+      <div class="filter-bar">
+        <button class="filter-btn active" data-filter="all">Todos</button>
+        <button class="filter-btn" data-filter="vivienda-colectiva">Vivienda Colectiva</button>
+        <button class="filter-btn" data-filter="residencial">Residencial</button>
+        <button class="filter-btn" data-filter="comercial">Comercial</button>
+        <button class="filter-btn" data-filter="urbano">Urbano</button>
+      </div>
+
+      <div class="projects-grid">
+        <article class="project-card featured" data-category="residencial" data-gallery="G133">
+          <div class="project-img">
+            <img src="img/g133/ext-01.jpg" alt="G-133 Casa en la Montaña — Villa Carlos Paz" loading="lazy" style="width:100%;height:100%;object-fit:cover;" />
+            <div class="project-overlay">
+              <a href="#" class="project-link gallery-trigger" data-gallery="G133">Ver galería →</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-cat">Residencial · Barrio La Cuesta · Villa Carlos Paz</span>
+            <h3>G-133 — Casa en la Montaña</h3>
+            <p>Vivienda unifamiliar de 420 m², tres niveles: sub-suelo, planta baja y planta alta. Lamas verticales, vidrio y hormigón. Piscina lap y patio posterior. Documentación ejecutiva BIM completa. Villa Carlos Paz, 2025.</p>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="residencial" data-gallery="COSTAAZUL">
+          <div class="project-img">
+            <img src="img/costaazul/render-01.jpg" alt="G-154 Vivienda en Ladera — Villa Carlos Paz" loading="lazy" style="width:100%;height:100%;object-fit:cover;" />
+            <div class="project-overlay">
+              <a href="#" class="project-link gallery-trigger" data-gallery="COSTAAZUL">Ver galería →</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-cat">Residencial · Barrio Costa Azul · Villa Carlos Paz</span>
+            <h3>G-154 — Vivienda en Ladera</h3>
+            <p>Vivienda en ladera, 350 m². Volumen rojo en voladizo sobre planta baja semiencastrada. Deck de madera, piscina y doble cochera. Villa Carlos Paz.</p>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="residencial" data-gallery="OMARBDU">
+          <div class="project-img">
+            <img src="img/omarbdu/ext-dia-03.jpg" alt="Casa Los Cerros 59 — Villa Carlos Paz" loading="lazy" style="width:100%;height:100%;object-fit:cover;" />
+            <div class="project-overlay">
+              <a href="#" class="project-link gallery-trigger" data-gallery="OMARBDU">Ver galería →</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-cat">Residencial · Barrio José Muñoz · Villa Carlos Paz</span>
+            <h3>Casa Los Cerros 59</h3>
+            <p>Vivienda unifamiliar 360 m², dos plantas. Piedra partida, hormigón y madera. Proyecto, dirección de obra y conforme a obras. Villa Carlos Paz, 2017.</p>
+          </div>
+        </article>
+
+
+        <article class="project-card featured" data-category="vivienda-colectiva" data-gallery="A498">
+          <div class="project-img">
+            <img src="img/A-498/render-03.jpg" alt="Armenia 498 — Vivienda Colectiva Córdoba" loading="lazy" style="width:100%;height:100%;object-fit:cover;" />
+            <div class="project-overlay">
+              <a href="#" class="project-link gallery-trigger" data-gallery="A498">Ver galería →</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-cat">Vivienda Colectiva · En obra</span>
+            <h3>Armenia 498</h3>
+            <p>Complejo de vivienda colectiva, tipologías variadas, hormigón visto y ladrillo a la vista. Proyecto y dirección de obra BIM. Córdoba, 2026.</p>
+          </div>
+        </article>
+
+        <article class="project-card featured" data-category="vivienda-colectiva" data-gallery="JA036">
+          <div class="project-img">
+            <img src="img/ja036/post-08.jpg" alt="J-036 · 3 Dúplex Nelson Moyano — Alta Gracia" loading="lazy" style="width:100%;height:100%;object-fit:cover;" />
+            <div class="project-overlay">
+              <a href="#" class="project-link gallery-trigger" data-gallery="JA036">Ver galería →</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-cat">Vivienda Colectiva · En obra 2025 · Alta Gracia</span>
+            <h3>J-036 — 3 Dúplex Moyano</h3>
+            <p>3 dúplex de 2 plantas, 85 m² por unidad. Terreno con pendiente negativa, terrazas sobre techo, pileta y deck compartido. Proyecto y dirección BIM Revit. Alta Gracia, Córdoba.</p>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="residencial" data-gallery="HIRVONNEN">
+          <div class="project-img">
+            <img src="img/hirvonnen/ext-05.jpg" alt="H-2003 — Casa en esquina · Córdoba" loading="lazy" style="width:100%;height:100%;object-fit:cover;" />
+            <div class="project-overlay">
+              <a href="#" class="project-link gallery-trigger" data-gallery="HIRVONNEN">Ver galería →</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-cat">Residencial · Córdoba</span>
+            <h3>H-2003 — Casa en Esquina</h3>
+            <p>Vivienda unifamiliar en esquina, 370 m² cubiertos. Ladrillo a la vista, volúmenes definidos y jardín perimetral. Córdoba.</p>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="residencial" data-gallery="SALDANA">
+          <div class="project-img">
+            <img src="img/saldana/render-01.jpg" alt="Causana — Barrio Causana" loading="lazy" style="width:100%;height:100%;object-fit:cover;" />
+            <div class="project-overlay">
+              <a href="#" class="project-link gallery-trigger" data-gallery="SALDANA">Ver galería →</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-cat">Residencial · Barrio Causana</span>
+            <h3>Causana</h3>
+            <p>Remodelación y ampliación de vivienda unifamiliar, 250 m². Revestimiento de piedra partida, ambientes integrados, piscina y galería exterior. Córdoba, 2026.</p>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="residencial" data-gallery="TOURING">
+          <div class="project-img">
+            <img src="img/touring/render-ext-04.jpg" alt="Casa Touring" loading="lazy" style="width:100%;height:100%;object-fit:cover;" />
+            <div class="project-overlay">
+              <a href="#" class="project-link gallery-trigger" data-gallery="TOURING">Ver galería →</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-cat">Residencial · Barrio Touring · Alta Gracia</span>
+            <h3>N-90 — Casa Touring</h3>
+            <p>Vivienda unifamiliar 330 m². Diseño e interiores integral, piscina y deck. Proyecto, cómputo y dirección de obra BIM. Alta Gracia, Córdoba.</p>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="residencial" data-gallery="FRIZOLO">
+          <div class="project-img">
+            <img src="img/frizolo/ext-01.jpg" alt="R5-486 Casa Frizolo — Vivienda Unifamiliar · Córdoba" loading="lazy" style="width:100%;height:100%;object-fit:cover;" />
+            <div class="project-overlay">
+              <a href="#" class="project-link gallery-trigger" data-gallery="FRIZOLO">Ver galería →</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-cat">Residencial · Córdoba</span>
+            <h3>R5-486</h3>
+            <p>Vivienda unifamiliar 250 m². Dos plantas, volúmenes puros, terrazas y garage integrado. Proyecto y dirección de obra. Córdoba.</p>
+          </div>
+        </article>
+
+        <article class="project-card featured" data-category="residencial" data-gallery="FRPADREHIJO">
+          <div class="project-img">
+            <img src="img/fr-padre-hijo/render-01.jpg" alt="F-22 Casa La Cuesta Colorada — La Calera" loading="lazy" style="width:100%;height:100%;object-fit:cover;" />
+            <div class="project-overlay">
+              <a href="#" class="project-link gallery-trigger" data-gallery="FRPADREHIJO">Ver galería →</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-cat">Residencial · Barrio La Cuesta Colorada · La Calera</span>
+            <h3>F-22 — Casa La Cuesta Colorada</h3>
+            <p>Vivienda unifamiliar 520 m². Tres niveles, estilo neo-clásico, arcadas, balcón con balaustrada y amplias terrazas. Proyecto y dirección de obra. La Calera, Córdoba.</p>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="residencial" data-gallery="GUILLE">
+          <div class="project-img">
+            <img src="img/guille/render-05.jpg" alt="N-3000 Casa Nazjle — La Bolsa, Córdoba" loading="lazy" style="width:100%;height:100%;object-fit:cover;" />
+            <div class="project-overlay">
+              <a href="#" class="project-link gallery-trigger" data-gallery="GUILLE">Ver galería →</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-cat">Residencial · La Bolsa · Córdoba</span>
+            <h3>N-3000 — Casa Nazjle</h3>
+            <p>Vivienda unifamiliar 300 m². Tres niveles, balcones con vidrio templado, revestimiento en piedra y pileta. Proyecto y dirección de obra. Córdoba.</p>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="residencial" data-gallery="LOSAROMAS">
+          <div class="project-img">
+            <img src="img/los-aromas/render-00.jpg" alt="Casa Los Aromas — Valle Escondido, Córdoba" loading="lazy" style="width:100%;height:100%;object-fit:cover;" />
+            <div class="project-overlay">
+              <a href="#" class="project-link gallery-trigger" data-gallery="LOSAROMAS">Ver galería →</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-cat">Residencial · Valle Escondido · Barrio Los Aromas</span>
+            <h3>Casa Los Aromas</h3>
+            <p>Vivienda unifamiliar 150 m². Dos plantas, ladrillo a la vista, volumetría moderna y jardín. Proyecto y dirección de obra. Valle Escondido, Córdoba.</p>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="residencial" data-gallery="L1336">
+          <div class="project-img">
+            <img src="img/l1336/frente-01.jpg" alt="Casa L-1336 — Vivienda Unifamiliar" loading="lazy" style="width:100%;height:100%;object-fit:cover;" />
+            <div class="project-overlay">
+              <a href="#" class="project-link gallery-trigger" data-gallery="L1336">Ver galería →</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-cat">Residencial · Calle Lepri</span>
+            <h3>Casa L-1336</h3>
+            <p>Vivienda unifamiliar 170 m², dos plantas, ladrillo a la vista y hormigón. Piscina, cochera cubierta y jardín. Proyecto y documentación BIM. Córdoba.</p>
+          </div>
+        </article>
+
+        <article class="project-card" data-category="vivienda-colectiva" data-gallery="LAZARO">
+          <div class="project-img">
+            <img src="img/lazaro/post-01.jpg" alt="Housing MM-448 Lázaro" loading="lazy" style="width:100%;height:100%;object-fit:cover;" />
+            <div class="project-overlay">
+              <a href="#" class="project-link gallery-trigger" data-gallery="LAZARO">Ver galería →</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <span class="project-cat">Housing · En obra</span>
+            <h3>Housing MM-448</h3>
+            <p>Complejo Lázaro: 11 dúplex de 120 m² c/u, cocheras individuales, piscina, quincho y asador exterior. Documentado en Revit BIM. Alta Gracia, 2025.</p>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- VIDEO SHOWCASE -->
+  <section class="video-showcase">
+    <video class="showcase-video" autoplay muted loop playsinline preload="auto">
+      <source src="video/ia-video-02.mp4" type="video/mp4">
+    </video>
+    <div class="showcase-overlay">
+      <p class="showcase-label">Visualización arquitectónica · IA</p>
+    </div>
+  </section>
+
+  <!-- NOSOTROS -->
+  <section id="nosotros" class="section section-alt">
+    <div class="container about-grid">
+      <div class="about-visual">
+        <div class="about-img-main">
+          <img src="img/fernando-perfil.jpg" alt="Fernando Ferreyra — Arquitecto FGF arquitectura" style="width:100%;height:100%;object-fit:cover;object-position:center top;border-radius:2px;" />
+        </div>
+        <div class="about-img-accent">
+          <img src="img/fernando-perfil-acento.jpg" alt="Fernando Ferreyra — Arquitecto FGF arquitectura" style="width:100%;height:100%;object-fit:cover;object-position:center top;border-radius:2px;" />
+        </div>
+        <div class="about-badge">
+          <span class="badge-num">23</span>
+          <span class="badge-text">años de<br/>trayectoria</span>
+        </div>
+      </div>
+      <div class="about-text">
+        <p class="section-tag">Nosotros</p>
+        <h2>23 años construyendo con precisión</h2>
+        <p>Soy Fernando Ferreyra, arquitecto con 23 años de experiencia en dirección y ejecución de obras. Trabajo de forma independiente —desde la obra misma o en reuniones en coworkings de Córdoba— para mantener una atención directa y sin intermediarios en cada proyecto.</p>
+        <p>Me especializo en proyectos de gran escala: edificios de hasta 3.000 m², viviendas en barrios privados, obras civiles y vivienda colectiva. Cada obra la gestiono con metodología BIM integral (2D, 3D, 4D y 5D), lo que permite controlar diseño, cronograma y costos en tiempo real.</p>
+        <ul class="values-list">
+          <li><span class="val-icon">◆</span>Trato directo con el profesional a cargo</li>
+          <li><span class="val-icon">◆</span>Gestión BIM 2D · 3D · 4D · 5D</li>
+          <li><span class="val-icon">◆</span>Experiencia en obras de gran escala</li>
+          <li><span class="val-icon">◆</span>Manejo de cuadrillas y dirección de obra</li>
+        </ul>
+        <a href="#contacto" class="btn-primary">Hablemos de tu proyecto</a>
+      </div>
+    </div>
+
+    <!-- BIM TOOLS -->
+    <div class="container">
+      <div class="section-header" style="margin-top:80px;">
+        <p class="section-tag">Tecnología BIM</p>
+        <h2>Gestión integral del proyecto</h2>
+        <p class="section-desc">Trabajo con metodología BIM en todas sus dimensiones, desde el diseño hasta el control de costos y cronograma.</p>
+      </div>
+      <div class="bim-grid">
+        <div class="bim-card">
+          <div class="bim-dim">2D</div>
+          <h4>Documentación técnica</h4>
+          <p>Planos, detalles constructivos y documentación legal completa.</p>
+          <span class="bim-tool">Revit</span>
+        </div>
+        <div class="bim-card">
+          <div class="bim-dim">3D</div>
+          <h4>Modelado y visualización</h4>
+          <p>Modelo tridimensional preciso para detectar interferencias y presentar el proyecto.</p>
+          <span class="bim-tool">Revit · Navisworks</span>
+        </div>
+        <div class="bim-card">
+          <div class="bim-dim">4D</div>
+          <h4>Planificación temporal</h4>
+          <p>Cronograma de obra integrado al modelo: visualización del avance etapa por etapa.</p>
+          <span class="bim-tool">Navisworks</span>
+        </div>
+        <div class="bim-card">
+          <div class="bim-dim">5D</div>
+          <h4>Control de costos</h4>
+          <p>Presupuesto vinculado al modelo. Mediciones automáticas y seguimiento en tiempo real.</p>
+          <span class="bim-tool">Arquímedes · CYPECAD</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- DOCUMENTACIÓN BIM -->
+    <div class="container bim-docs-wrap">
+      <p class="bim-docs-label">Ejemplo de documentación generada — Proyecto Armenia 498</p>
+      <div class="bim-docs-grid bim-docs-4">
+        <div class="bim-doc-item gallery-trigger" data-gallery="BIM" data-index="0">
+          <img src="img/bim/plano-inst-109-p1.png" alt="INST-109 Axonométrica Red de Agua" />
+          <div class="bim-doc-overlay">
+            <span>Armenia 498 · INST-109 · Axonométrica Red de Agua</span>
+          </div>
+        </div>
+        <div class="bim-doc-item gallery-trigger" data-gallery="BIM" data-index="1">
+          <img src="img/bim/plano-inst-106-p1.png" alt="INST-106 Detalles Instalaciones" />
+          <div class="bim-doc-overlay">
+            <span>Armenia 498 · INST-106 · Detalles Instalaciones</span>
+          </div>
+        </div>
+        <div class="bim-doc-item gallery-trigger" data-gallery="BIM" data-index="2">
+          <img src="img/lazaro/plano-cortes.jpg" alt="MM-448 Cortes A-A y B-B" />
+          <div class="bim-doc-overlay">
+            <span>MM-448 · Corte A-A y B-B · 1:100</span>
+          </div>
+        </div>
+        <div class="bim-doc-item gallery-trigger" data-gallery="BIM" data-index="3">
+          <img src="img/lazaro/plano-plantas.jpg" alt="MM-448 Plantas" />
+          <div class="bim-doc-overlay">
+            <span>MM-448 · Plantas Nivel 1, 2, 3 y Techos</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICIOS -->
+  <section id="servicios" class="section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-tag">Servicios</p>
+        <h2>¿En qué podemos ayudarte?</h2>
+        <p class="section-desc">Acompañamos cada proyecto desde el concepto hasta la entrega final.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 40 40" fill="none"><rect x="6" y="8" width="28" height="24" rx="1" stroke="currentColor" stroke-width="1.5"/><line x1="6" y1="16" x2="34" y2="16" stroke="currentColor" stroke-width="1.5"/><line x1="20" y1="8" x2="20" y2="32" stroke="currentColor" stroke-width="1.5"/></svg>
+          </div>
+          <h3>Arquitectura Residencial</h3>
+          <p>Diseño de viviendas unifamiliares, multifamiliares y condominios que reflejan la personalidad y el estilo de vida de sus habitantes.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 40 40" fill="none"><path d="M8 32V14l12-8 12 8v18H8z" stroke="currentColor" stroke-width="1.5"/><rect x="16" y="22" width="8" height="10" stroke="currentColor" stroke-width="1.5"/></svg>
+          </div>
+          <h3>Arquitectura Comercial</h3>
+          <p>Oficinas, locales, hoteles y edificios corporativos diseñados para potenciar la productividad y la imagen de marca.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="12" stroke="currentColor" stroke-width="1.5"/><line x1="20" y1="8" x2="20" y2="32" stroke="currentColor" stroke-width="1.5"/><line x1="8" y1="20" x2="32" y2="20" stroke="currentColor" stroke-width="1.5"/></svg>
+          </div>
+          <h3>Diseño Urbano</h3>
+          <p>Intervenciones en el espacio público, master plans y planificación urbana orientados a comunidades más habitables y sostenibles.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 40 40" fill="none"><rect x="8" y="12" width="24" height="20" rx="1" stroke="currentColor" stroke-width="1.5"/><path d="M14 12V8h12v4" stroke="currentColor" stroke-width="1.5"/><line x1="14" y1="20" x2="26" y2="20" stroke="currentColor" stroke-width="1.5"/><line x1="14" y1="26" x2="22" y2="26" stroke="currentColor" stroke-width="1.5"/></svg>
+          </div>
+          <h3>Diseño de Interiores</h3>
+          <p>Interiorismo integral: materialidades, iluminación, mobiliario y arte para crear atmósferas únicas y funcionales.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 40 40" fill="none"><path d="M10 30L20 10l10 20H10z" stroke="currentColor" stroke-width="1.5"/><circle cx="20" cy="18" r="3" stroke="currentColor" stroke-width="1.5"/></svg>
+          </div>
+          <h3>Dirección de Obra</h3>
+          <p>Supervisión técnica y gestión de obra para garantizar que cada proyecto se ejecute según planos, tiempos y presupuesto acordados.</p>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 40 40" fill="none"><rect x="8" y="8" width="24" height="24" rx="1" stroke="currentColor" stroke-width="1.5"/><path d="M14 20l4 4 8-8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Consultoría & Asesoría</h3>
+          <p>Asesoramiento técnico, evaluación de factibilidad, consultoría en certificaciones sostenibles y revisión de proyectos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESO -->
+  <section class="section section-dark">
+    <div class="container">
+      <div class="section-header light">
+        <p class="section-tag">Metodología</p>
+        <h2>Nuestro proceso de trabajo</h2>
+      </div>
+      <div class="process-steps">
+        <div class="step">
+          <div class="step-num">01</div>
+          <h4>Escucha</h4>
+          <p>Entendemos tus necesidades, presupuesto y visión antes de trazar una sola línea.</p>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="step">
+          <div class="step-num">02</div>
+          <h4>Concepto</h4>
+          <p>Desarrollamos la idea fuerza del proyecto con bocetos, referencias y propuestas volumétricas.</p>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="step">
+          <div class="step-num">03</div>
+          <h4>Diseño</h4>
+          <p>Producimos planos, renders 3D y documentación técnica completa para aprobar y construir.</p>
+        </div>
+        <div class="step-arrow">→</div>
+        <div class="step">
+          <div class="step-num">04</div>
+          <h4>Ejecución</h4>
+          <p>Acompañamos la obra garantizando calidad, tiempos y el resultado soñado desde el inicio.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="section">
+    <div class="container contact-grid">
+      <div class="contact-info">
+        <p class="section-tag">Contacto</p>
+        <h2>Hablemos de tu proyecto</h2>
+        <p>Estamos disponibles para consultas, presupuestos y reuniones. Cuéntanos tu idea — la convertimos en realidad.</p>
+        <ul class="contact-data">
+          <li>
+            <svg viewBox="0 0 24 24" fill="none"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z" fill="currentColor"/></svg>
+            <span>Córdoba, Argentina<br/>Reuniones en coworkings a convenir</span>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" fill="currentColor"/></svg>
+            <span>0351 611-3457</span>
+          </li>
+          <li>
+            <svg viewBox="0 0 24 24" fill="none"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" fill="currentColor"/></svg>
+            <span>arqfernandoferreyra@gmail.com</span>
+          </li>
+        </ul>
+        <div class="social-links">
+          <a href="https://www.instagram.com/arqfernandoferreyra" target="_blank" rel="noopener" aria-label="Instagram @arqfernandoferreyra">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+          </a>
+          <a href="#" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+          <a href="#" aria-label="Houzz">
+            <svg viewBox="0 0 24 24" fill="currentColor"><path d="M13.274 0v7.844L5.15 12.327V24h5.35v-6.867h4.548V24H20.2V7.518z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <form class="contact-form" id="contactForm">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="nombre">Nombre completo *</label>
+            <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" required placeholder="tu@email.com" />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="telefono">Teléfono</label>
+          <input type="tel" id="telefono" name="telefono" placeholder="+54 11 0000-0000" />
+        </div>
+        <div class="form-group">
+          <label for="servicio">Tipo de proyecto</label>
+          <select id="servicio" name="servicio">
+            <option value="">Seleccionar...</option>
+            <option>Arquitectura Residencial</option>
+            <option>Arquitectura Comercial</option>
+            <option>Diseño Urbano</option>
+            <option>Diseño de Interiores</option>
+            <option>Dirección de Obra</option>
+            <option>Consultoría</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="mensaje">Contanos tu proyecto *</label>
+          <textarea id="mensaje" name="mensaje" required rows="5" placeholder="Describí brevemente tu proyecto: ubicación, superficie aproximada, presupuesto estimado y plazo..."></textarea>
+        </div>
+        <button type="submit" class="btn-primary btn-full">Enviar consulta →</button>
+        <p class="form-note">* Campos obligatorios. Te respondemos dentro de las 24 hs hábiles.</p>
+        <div id="formSuccess" class="form-success hidden">
+          ¡Gracias! Recibimos tu consulta y te contactaremos pronto.
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- GALERÍA MODAL -->
+  <div id="galleryModal" class="gallery-modal hidden">
+    <button class="gallery-close" id="galleryClose">✕</button>
+    <button class="gallery-nav prev" id="galleryPrev">‹</button>
+    <button class="gallery-nav next" id="galleryNext">›</button>
+    <div class="gallery-stage">
+      <img id="galleryImg" src="" alt="" />
+    </div>
+    <div class="gallery-thumbs" id="galleryThumbs"></div>
+    <p class="gallery-caption" id="galleryCaption"></p>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a href="#inicio" class="logo">FGF<span>arquitectura</span></a>
+      <p class="footer-copy">© 2026 FGF arquitectura. Todos los derechos reservados.</p>
+      <nav class="footer-nav">
+        <a href="#proyectos">Proyectos</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#contacto">Contacto</a>
+        <a href="https://www.instagram.com/arqfernandoferreyra" target="_blank" rel="noopener">@arqfernandoferreyra</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
