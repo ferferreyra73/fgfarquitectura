@@ -77,6 +77,7 @@ const galleries = {
   // ── A-498 · Armenia 498 · Córdoba ─────────────────────────────────────────
   // Carpeta: img/A-498/   |   Portada: index.html → data-gallery="A498"
   A498: [
+    { type: 'video', src: 'video/A-498/secuencia-01.mp4', caption: 'Armenia 498 — Secuencia animada · Recorrido del conjunto · Córdoba, 2026' },
     { type: 'img',   src: 'img/A-498/render-03.jpg',   caption: 'Armenia 498 — Fachada principal · Hormigón visto y ladrillo · Córdoba, 2026' },
     { type: 'img',   src: 'img/A-498/maqueta-01.jpg',   caption: 'Armenia 498 — Maqueta · Vista general del conjunto · Córdoba, 2026' },
     { type: 'img',   src: 'img/A-498/lamina-diseno.jpg', caption: 'Armenia 498 — Análisis Conceptual · Conjunto de Viviendas Modular · Planta, Sección, Axonométrico y Materiales' },
