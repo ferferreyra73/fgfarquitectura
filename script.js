@@ -223,6 +223,7 @@ const galleries = {
     { type: 'img', src: 'img/g133/plano-subsuelo.jpg', caption: 'G-133 · Planta Sub Suelo — Arquitectura Ejecutiva 1:100' },
     { type: 'img', src: 'img/g133/plano-pb.jpg',       caption: 'G-133 · Planta Baja — Arquitectura Ejecutiva 1:100' },
     { type: 'img', src: 'img/g133/plano-pa.jpg',       caption: 'G-133 · Planta Alta — Arquitectura Ejecutiva 1:100' },
+    { type: 'img', src: 'img/g133/lamina-diseno.jpg',  caption: 'G-133 Casa en la Montaña — Lámina · Planta, Sección, Axonométrico y Evolución de Forma · Materiales' },
   ],
   // ── L1336 · Casa L-1336 · Córdoba ───────────────────────────────────────
   // Carpeta: img/l1336/
