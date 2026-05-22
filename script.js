@@ -116,7 +116,6 @@ const galleries = {
   // Carpeta: img/touring/
   TOURING: [
     // ── VIDEOS ──
-    { type: 'video', src: 'video/touring/vizmaker-01.mp4', caption: 'N-90 Casa Touring — Visualización animada · Alta Gracia' },
     { type: 'video', src: 'video/touring/vizmaker-02.mp4', caption: 'N-90 Casa Touring — Visualización animada · Recorrido exterior' },
     { type: 'video', src: 'video/touring/vizmaker-03.mp4', caption: 'N-90 Casa Touring — Visualización animada · Recorrido interior' },
     // ── RENDERS EXTERIORES ──
