@@ -77,21 +77,16 @@ const galleries = {
   // ── A-498 · Armenia 498 · Córdoba ─────────────────────────────────────────
   // Carpeta: img/A-498/   |   Portada: index.html → data-gallery="A498"
   A498: [
-    { type: 'video', src: 'video/A-498/secuencia-01.mp4', caption: 'Armenia 498 — Secuencia animada · Recorrido del conjunto · Córdoba, 2026' },
-    { type: 'img',   src: 'img/A-498/render-03.jpg',   caption: 'Armenia 498 — Fachada principal · Hormigón visto y ladrillo · Córdoba, 2026' },
-    { type: 'img',   src: 'img/A-498/maqueta-01.jpg',   caption: 'Armenia 498 — Maqueta · Vista general del conjunto · Córdoba, 2026' },
-    { type: 'img',   src: 'img/A-498/lamina-diseno.jpg', caption: 'Armenia 498 — Análisis Conceptual · Conjunto de Viviendas Modular · Planta, Sección, Axonométrico y Materiales' },
-    { type: 'img',   src: 'img/A-498/int-new-01.jpg',  caption: 'Armenia 498 — Interior · Cocina con mesada de mármol negro' },
-    { type: 'img',   src: 'img/A-498/int-new-02.jpg',  caption: 'Armenia 498 — Interior · Dormitorio principal con revestimiento de madera' },
-    { type: 'img',   src: 'img/A-498/int-new-03.jpg',  caption: 'Armenia 498 — Interior · Dormitorio secundario' },
-    { type: 'img',   src: 'img/A-498/int-new-04.jpg',  caption: 'Armenia 498 — Interior · Comedor y living integrados' },
-    { type: 'img',   src: 'img/A-498/obra-03.jpg',     caption: 'Armenia 498 — Losa de fundación · Armadura en ejecución' },
-    { type: 'img',   src: 'img/A-498/obra-04.jpg',     caption: 'Armenia 498 — Inicio de obra · Fundaciones y replanteo' },
-    { type: 'video', src: 'img/A-498/animacion-01.mp4', caption: 'Armenia 498 — Animación · Secuencia exterior 01' },
-    { type: 'video', src: 'video/A-498/anim-01.mp4',   caption: 'Armenia 498 — Animación recorrido 01' },
-    { type: 'video', src: 'video/A-498/anim-02.mp4',   caption: 'Armenia 498 — Animación recorrido 02' },
-    { type: 'video', src: 'video/A-498/anim-03.mp4',   caption: 'Armenia 498 — Animación recorrido 03' },
-    { type: 'video', src: 'video/A-498/seq-7.mp4',     caption: 'Armenia 498 — Secuencia exterior' },
+    { type: 'img',   src: 'img/A-498/render-03.jpg',    caption: 'Armenia 498 — Fachada principal · Hormigón visto y ladrillo · Alta Gracia, 2026' },
+    { type: 'video', src: 'video/A-498/secuencia-01.mp4', caption: 'Armenia 498 — Secuencia animada · Recorrido del conjunto · Alta Gracia, 2026' },
+    { type: 'img',   src: 'img/A-498/maqueta-01.jpg',   caption: 'Armenia 498 — Maqueta de estudio · Conjunto modular de 6 unidades · Alta Gracia, 2026' },
+    { type: 'img',   src: 'img/A-498/lamina-diseno.jpg', caption: 'Armenia 498 — Lámina conceptual · Planta, Sección, Axonométrico y Materialidad · Alta Gracia, 2026' },
+    { type: 'img',   src: 'img/A-498/obra-03.jpg',      caption: 'Armenia 498 — Losa de fundación · Armadura en ejecución · Alta Gracia, 2026' },
+    { type: 'img',   src: 'img/A-498/obra-04.jpg',      caption: 'Armenia 498 — Inicio de obra · Fundaciones y replanteo · Alta Gracia, 2026' },
+    { type: 'video', src: 'video/A-498/anim-01.mp4',    caption: 'Armenia 498 — Animación · Recorrido exterior 01' },
+    { type: 'video', src: 'video/A-498/anim-02.mp4',    caption: 'Armenia 498 — Animación · Recorrido exterior 02' },
+    { type: 'video', src: 'video/A-498/anim-03.mp4',    caption: 'Armenia 498 — Animación · Recorrido exterior 03' },
+    { type: 'video', src: 'video/A-498/seq-7.mp4',      caption: 'Armenia 498 — Secuencia · Vista del conjunto' },
   ],
   // ── SALDANA · Causana · Córdoba ───────────────────────────────────────────
   // Carpeta: img/saldana/
