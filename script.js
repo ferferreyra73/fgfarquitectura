@@ -163,6 +163,7 @@ const galleries = {
     { type: 'img', src: 'img/lazaro/obra-01.jpg',       caption: 'Housing MM-448 — Instalaciones de gas en ejecución' },
     { type: 'img', src: 'img/lazaro/obra-02.jpg',       caption: 'Housing MM-448 — Detalle instalaciones' },
     { type: 'img', src: 'img/lazaro/obra-03.jpg',       caption: 'Housing MM-448 — Avance de obra' },
+    { type: 'img', src: 'img/lazaro/obra-nueva-01.jpg', caption: 'Housing MM-448 — Fachada en terminaciones · Número 448 · Alta Gracia' },
     { type: 'img', src: 'img/lazaro/lamina-diseno.jpg',  caption: 'Housing MM-448 — Lámina · Planta Nivel, Corte B-B, Axonométrico y Evolución Volumétrica · Materiales' },
     { type: 'img', src: 'img/lazaro/plano-cortes.jpg',  caption: 'Housing MM-448 — Corte A-A y B-B · Plano Municipal 1:100' },
     { type: 'img', src: 'img/lazaro/plano-plantas.jpg', caption: 'Housing MM-448 — Plantas Nivel 1, 2, 3 y Techos · 1:100' },
