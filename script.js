@@ -188,7 +188,7 @@ const galleries = {
   // Para agregar renders propios del proyecto: ext-render-01.jpg, ext-render-02.jpg ...
   OMARBDU: [
     { type: 'video', src: 'video/omarbdu/vizmaker-01.mp4', caption: 'Casa Los Cerros 59 — Visualización animada · Recorrido del proyecto' },
-    { type: 'img', src: 'img/omarbdu/int-02.jpg',       caption: 'Casa Los Cerros 59 — Interior living' },
+    { type: 'img', src: 'img/omarbdu/ext-dia-04.jpg',   caption: 'Casa Los Cerros 59 — Fachada principal · Villa Carlos Paz, 2017' },
     { type: 'img', src: 'img/omarbdu/int-03.jpg',       caption: 'Casa Los Cerros 59 — Cocina con isla · Mármol verde y madera nogal' },
     { type: 'img', src: 'img/omarbdu/int-04.jpg',       caption: 'Casa Los Cerros 59 — Biblioteca y sala de estar · Diseño de interiores' },
     { type: 'img', src: 'img/omarbdu/lamina-diseno.jpg', caption: 'Casa Los Cerros 59 — Lámina · Planta Baja, Planta Alta, Sección y Evolución de Forma · Materiales' },
