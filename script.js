@@ -189,6 +189,7 @@ const galleries = {
     { type: 'video', src: 'video/omarbdu/vizmaker-01.mp4', caption: 'Casa Los Cerros 59 — Visualización animada · Recorrido del proyecto' },
     { type: 'img', src: 'img/omarbdu/ext-dia-04.jpg',   caption: 'Casa Los Cerros 59 — Fachada principal · Villa Carlos Paz, 2017' },
     { type: 'img', src: 'img/omarbdu/int-03.jpg',       caption: 'Casa Los Cerros 59 — Cocina con isla · Mármol verde y madera nogal' },
+    { type: 'img', src: 'img/omarbdu/int-05.jpg',       caption: 'Casa Los Cerros 59 — Cocina y comedor · Vista panorámica · Mármol verde y nogal' },
     { type: 'img', src: 'img/omarbdu/int-04.jpg',       caption: 'Casa Los Cerros 59 — Biblioteca y sala de estar · Diseño de interiores' },
     { type: 'img', src: 'img/omarbdu/lamina-diseno.jpg', caption: 'Casa Los Cerros 59 — Lámina · Planta Baja, Planta Alta, Sección y Evolución de Forma · Materiales' },
     { type: 'img', src: 'img/omarbdu/plano-pb.jpg',     caption: 'Casa Los Cerros 59 — Planta Baja · Proyecto Municipal' },
@@ -198,6 +199,9 @@ const galleries = {
   // ── G133 · Casa en la Montaña · V. Carlos Paz ───────────────────────────
   // Carpeta: img/g133/
   G133: [
+    { type: 'img', src: 'img/g133/int-new-01.jpg',      caption: 'G-133 Casa en la Montaña — Escritorio · Biblioteca y home office · Villa Carlos Paz' },
+    { type: 'img', src: 'img/g133/int-new-02.jpg',      caption: 'G-133 Casa en la Montaña — Escritorio nocturno · Iluminación artificial · Villa Carlos Paz' },
+    { type: 'img', src: 'img/g133/int-new-03.jpg',      caption: 'G-133 Casa en la Montaña — Comedor · Diseño de interiores · Villa Carlos Paz' },
     { type: 'img', src: 'img/g133/ext-01.jpg',         caption: 'G-133 Casa en la Montaña — Fachada principal · Barrio La Cuesta, Villa Carlos Paz' },
     { type: 'img', src: 'img/g133/ext-02.jpg',         caption: 'G-133 Casa en la Montaña — Piscina lap y patio lateral' },
     { type: 'img', src: 'img/g133/ext-03.jpg',         caption: 'G-133 Casa en la Montaña — Vista exterior posterior' },
