@@ -112,7 +112,6 @@ const galleries = {
   // Carpeta: img/touring/
   TOURING: [
     // ── VIDEOS ──
-    { type: 'video', src: 'video/touring/vizmaker-02.mp4', caption: 'N-90 Casa Touring — Visualización animada · Recorrido exterior' },
     { type: 'video', src: 'video/touring/vizmaker-03.mp4', caption: 'N-90 Casa Touring — Visualización animada · Recorrido interior' },
     // ── MAQUETA ──
     { type: 'img', src: 'img/touring/maqueta-01.jpg', caption: 'N-90 Casa Touring — Maqueta · Piscina, deck y cochera · Alta Gracia' },
