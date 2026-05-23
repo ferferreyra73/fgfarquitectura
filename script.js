@@ -123,6 +123,9 @@ const galleries = {
     { type: 'img', src: 'img/touring/render-ext-03.jpg', caption: 'N-90 Casa Touring — Fachada principal · Cochera con nieve' },
     // ── INTERIORES ──
     { type: 'img', src: 'img/touring/final-01.jpg',      caption: 'N-90 Casa Touring — Estar-comedor con vista a piscina · Alta Gracia' },
+    { type: 'img', src: 'img/touring/int-new-01.jpg',    caption: 'N-90 Casa Touring — Escritorio · Biblioteca y home office · Alta Gracia' },
+    { type: 'img', src: 'img/touring/int-new-02.jpg',    caption: 'N-90 Casa Touring — Escritorio nocturno · Iluminación artificial · Alta Gracia' },
+    { type: 'img', src: 'img/touring/int-new-03.jpg',    caption: 'N-90 Casa Touring — Comedor · Diseño de interiores · Alta Gracia' },
     { type: 'img', src: 'img/touring/render-new-01.jpg', caption: 'N-90 Casa Touring — Comedor · Diseño de interiores · Alta Gracia' },
     { type: 'img', src: 'img/touring/render-new-02.jpg', caption: 'N-90 Casa Touring — Estudio · Home office integrado · Alta Gracia' },
     { type: 'img', src: 'img/touring/render-new-03.jpg', caption: 'N-90 Casa Touring — Cocina integrada · Mesada continua · Alta Gracia' },
@@ -198,9 +201,6 @@ const galleries = {
   // ── G133 · Casa en la Montaña · V. Carlos Paz ───────────────────────────
   // Carpeta: img/g133/
   G133: [
-    { type: 'img', src: 'img/g133/int-new-01.jpg',      caption: 'G-133 Casa en la Montaña — Escritorio · Biblioteca y home office · Villa Carlos Paz' },
-    { type: 'img', src: 'img/g133/int-new-02.jpg',      caption: 'G-133 Casa en la Montaña — Escritorio nocturno · Iluminación artificial · Villa Carlos Paz' },
-    { type: 'img', src: 'img/g133/int-new-03.jpg',      caption: 'G-133 Casa en la Montaña — Comedor · Diseño de interiores · Villa Carlos Paz' },
     { type: 'img', src: 'img/g133/ext-01.jpg',         caption: 'G-133 Casa en la Montaña — Fachada principal · Barrio La Cuesta, Villa Carlos Paz' },
     { type: 'img', src: 'img/g133/ext-02.jpg',         caption: 'G-133 Casa en la Montaña — Piscina lap y patio lateral' },
     { type: 'img', src: 'img/g133/ext-03.jpg',         caption: 'G-133 Casa en la Montaña — Vista exterior posterior' },
