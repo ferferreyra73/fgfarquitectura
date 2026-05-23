@@ -201,6 +201,11 @@ const galleries = {
   // ── G133 · Casa en la Montaña · V. Carlos Paz ───────────────────────────
   // Carpeta: img/g133/
   G133: [
+    // ── INTERIORES ──
+    { type: 'img', src: 'img/g133/int-fam-01.jpg', caption: 'G-133 Casa en la Montaña — Estar · Chimenea y biblioteca · Villa Carlos Paz' },
+    { type: 'img', src: 'img/g133/int-fam-02.jpg', caption: 'G-133 Casa en la Montaña — Cocina · Isla central y comedor integrado · Villa Carlos Paz' },
+    { type: 'img', src: 'img/g133/int-fam-03.jpg', caption: 'G-133 Casa en la Montaña — Comedor · Cocina abierta y living · Villa Carlos Paz' },
+    // ── EXTERIORES ──
     { type: 'img', src: 'img/g133/ext-01.jpg',         caption: 'G-133 Casa en la Montaña — Fachada principal · Barrio La Cuesta, Villa Carlos Paz' },
     { type: 'img', src: 'img/g133/ext-02.jpg',         caption: 'G-133 Casa en la Montaña — Piscina lap y patio lateral' },
     { type: 'img', src: 'img/g133/ext-03.jpg',         caption: 'G-133 Casa en la Montaña — Vista exterior posterior' },
