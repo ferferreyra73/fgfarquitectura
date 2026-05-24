@@ -47,20 +47,34 @@ document.querySelectorAll(
   observer.observe(el);
 });
 
-// Contact form
-document.getElementById('contactForm').addEventListener('submit', function(e) {
+// Contact form — Formspree
+document.getElementById('contactForm').addEventListener('submit', async function(e) {
   e.preventDefault();
   const btn = this.querySelector('button[type="submit"]');
   const success = document.getElementById('formSuccess');
+  const errorMsg = document.getElementById('formError');
   btn.textContent = 'Enviando...';
   btn.disabled = true;
-  setTimeout(() => {
-    this.reset();
+  try {
+    const res = await fetch('https://formspree.io/f/arqfernandoferreyra@gmail.com', {
+      method: 'POST',
+      body: new FormData(this),
+      headers: { 'Accept': 'application/json' }
+    });
+    if (res.ok) {
+      this.reset();
+      success.classList.remove('hidden');
+      setTimeout(() => success.classList.add('hidden'), 6000);
+    } else {
+      throw new Error('Error al enviar');
+    }
+  } catch {
+    if (errorMsg) { errorMsg.classList.remove('hidden'); setTimeout(() => errorMsg.classList.add('hidden'), 6000); }
+    else { alert('Error al enviar. Escribinos a arqfernandoferreyra@gmail.com'); }
+  } finally {
     btn.textContent = 'Enviar consulta →';
     btn.disabled = false;
-    success.classList.remove('hidden');
-    setTimeout(() => success.classList.add('hidden'), 5000);
-  }, 1200);
+  }
 });
 
 // ─────────────────────────────────────────────────────────────────────────────
