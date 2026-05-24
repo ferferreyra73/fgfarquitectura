@@ -47,34 +47,29 @@ document.querySelectorAll(
   observer.observe(el);
 });
 
-// Contact form — Formspree
-document.getElementById('contactForm').addEventListener('submit', async function(e) {
+// Contact form — envía por WhatsApp
+document.getElementById('contactForm').addEventListener('submit', function(e) {
   e.preventDefault();
-  const btn = this.querySelector('button[type="submit"]');
+  const nombre   = document.getElementById('nombre').value.trim();
+  const email    = document.getElementById('email').value.trim();
+  const telefono = document.getElementById('telefono').value.trim();
+  const servicio = document.getElementById('servicio').value.trim();
+  const mensaje  = document.getElementById('mensaje').value.trim();
+
+  const texto =
+    `Hola Fernando, te escribo desde tu web FGF Arquitectura.\n\n` +
+    `*Nombre:* ${nombre}\n` +
+    `*Email:* ${email}\n` +
+    (telefono ? `*Teléfono:* ${telefono}\n` : '') +
+    (servicio ? `*Proyecto:* ${servicio}\n` : '') +
+    `\n*Consulta:*\n${mensaje}`;
+
+  window.open('https://wa.me/5493516113457?text=' + encodeURIComponent(texto), '_blank');
+
+  this.reset();
   const success = document.getElementById('formSuccess');
-  const errorMsg = document.getElementById('formError');
-  btn.textContent = 'Enviando...';
-  btn.disabled = true;
-  try {
-    const res = await fetch('https://formspree.io/f/arqfernandoferreyra@gmail.com', {
-      method: 'POST',
-      body: new FormData(this),
-      headers: { 'Accept': 'application/json' }
-    });
-    if (res.ok) {
-      this.reset();
-      success.classList.remove('hidden');
-      setTimeout(() => success.classList.add('hidden'), 6000);
-    } else {
-      throw new Error('Error al enviar');
-    }
-  } catch {
-    if (errorMsg) { errorMsg.classList.remove('hidden'); setTimeout(() => errorMsg.classList.add('hidden'), 6000); }
-    else { alert('Error al enviar. Escribinos a arqfernandoferreyra@gmail.com'); }
-  } finally {
-    btn.textContent = 'Enviar consulta →';
-    btn.disabled = false;
-  }
+  success.classList.remove('hidden');
+  setTimeout(() => success.classList.add('hidden'), 6000);
 });
 
 // ─────────────────────────────────────────────────────────────────────────────
