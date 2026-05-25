@@ -47,7 +47,7 @@ document.querySelectorAll(
   observer.observe(el);
 });
 
-// Contact form — envía por WhatsApp
+// Contact form — envía por email (Formspree) Y abre WhatsApp
 document.getElementById('contactForm').addEventListener('submit', function(e) {
   e.preventDefault();
   const nombre   = document.getElementById('nombre').value.trim();
@@ -56,6 +56,14 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
   const servicio = document.getElementById('servicio').value.trim();
   const mensaje  = document.getElementById('mensaje').value.trim();
 
+  // 1. Enviar al correo vía Formspree
+  fetch('https://formspree.io/f/xredaypb', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+    body: JSON.stringify({ nombre, email, telefono, servicio, mensaje })
+  });
+
+  // 2. Abrir WhatsApp con el mensaje
   const texto =
     `Hola Fernando, te escribo desde tu web FGF Arquitectura.\n\n` +
     `*Nombre:* ${nombre}\n` +
