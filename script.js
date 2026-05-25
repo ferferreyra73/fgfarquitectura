@@ -57,10 +57,17 @@ document.getElementById('contactForm').addEventListener('submit', function(e) {
   const mensaje  = document.getElementById('mensaje').value.trim();
 
   // 1. Enviar al correo vía Formspree
+  const fd = new FormData();
+  fd.append('nombre', nombre);
+  fd.append('email', email);
+  fd.append('telefono', telefono);
+  fd.append('servicio', servicio);
+  fd.append('mensaje', mensaje);
+  fd.append('_replyto', email);
   fetch('https://formspree.io/f/xredaypb', {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
-    body: JSON.stringify({ nombre, email, telefono, servicio, mensaje })
+    headers: { 'Accept': 'application/json' },
+    body: fd
   });
 
   // 2. Abrir WhatsApp con el mensaje
