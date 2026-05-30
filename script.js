@@ -371,6 +371,43 @@ const galleries = {
   ],
   // ── BIM · Documentación técnica ─────────────────────────────────────────
   // Carpeta: img/bim/ y img/lazaro/ (planos)
+  // ── TRAYECTORIA EN OBRA ──────────────────────────────────────────────────
+  ERCILIA1: [
+    { type: 'img', src: 'img/trayectoria/ercilia1/portada.jpg',  caption: 'Ercilia I — Fachada terminada · Bedoya 120, Alta Córdoba · 2003' },
+    { type: 'img', src: 'img/trayectoria/ercilia1/proc-01.jpg',  caption: 'Ercilia I — Inicio de obra · Excavación y fundaciones' },
+    { type: 'img', src: 'img/trayectoria/ercilia1/proc-02.jpg',  caption: 'Ercilia I — Estructura en ejecución' },
+    { type: 'img', src: 'img/trayectoria/ercilia1/proc-03.jpg',  caption: 'Ercilia I — Losa y columnas' },
+    { type: 'img', src: 'img/trayectoria/ercilia1/proc-04.jpg',  caption: 'Ercilia I — Avance de estructura' },
+    { type: 'img', src: 'img/trayectoria/ercilia1/proc-05.jpg',  caption: 'Ercilia I — Mampostería e instalaciones' },
+    { type: 'img', src: 'img/trayectoria/ercilia1/proc-06.jpg',  caption: 'Ercilia I — Terminaciones interiores' },
+    { type: 'img', src: 'img/trayectoria/ercilia1/proc-07.jpg',  caption: 'Ercilia I — Interior terminado' },
+    { type: 'img', src: 'img/trayectoria/ercilia1/proc-08.jpg',  caption: 'Ercilia I — Obra terminada' },
+  ],
+
+  ERCILIA2: [
+    { type: 'img', src: 'img/trayectoria/ercilia2/portada.jpg',  caption: 'Ercilia II — Fachada terminada · Bedoya 118, Alta Córdoba · 2007' },
+    { type: 'img', src: 'img/trayectoria/ercilia2/proc-01.jpg',  caption: 'Ercilia II — Inicio de obra · Subsuelo y fundaciones' },
+    { type: 'img', src: 'img/trayectoria/ercilia2/proc-02.jpg',  caption: 'Ercilia II — Estructura en ejecución' },
+    { type: 'img', src: 'img/trayectoria/ercilia2/proc-03.jpg',  caption: 'Ercilia II — Avance de estructura' },
+    { type: 'img', src: 'img/trayectoria/ercilia2/proc-04.jpg',  caption: 'Ercilia II — Colado de losa con cuadrilla' },
+    { type: 'img', src: 'img/trayectoria/ercilia2/proc-05.jpg',  caption: 'Ercilia II — Mampostería e instalaciones' },
+    { type: 'img', src: 'img/trayectoria/ercilia2/proc-06.jpg',  caption: 'Ercilia II — Terminaciones' },
+    { type: 'img', src: 'img/trayectoria/ercilia2/proc-07.jpg',  caption: 'Ercilia II — Interior terminado' },
+    { type: 'img', src: 'img/trayectoria/ercilia2/proc-08.jpg',  caption: 'Ercilia II — Obra terminada' },
+  ],
+
+  IRIS2: [
+    { type: 'img', src: 'img/trayectoria/iris2/portada.jpg',    caption: 'Iris II — Edificio terminado · Corrientes 430, Córdoba · 2006' },
+    { type: 'img', src: 'img/trayectoria/iris2/proc-01.jpg',    caption: 'Iris II — Excavación de pozos y pilotes' },
+    { type: 'img', src: 'img/trayectoria/iris2/proc-02.jpg',    caption: 'Iris II — Colado de fundaciones' },
+    { type: 'img', src: 'img/trayectoria/iris2/proc-03.jpg',    caption: 'Iris II — Colado de losa · Cuadrilla en obra' },
+    { type: 'img', src: 'img/trayectoria/iris2/proc-04.jpg',    caption: 'Iris II — Estructura avanzada' },
+    { type: 'img', src: 'img/trayectoria/iris2/proc-05.jpg',    caption: 'Iris II — Mampostería e instalaciones' },
+    { type: 'img', src: 'img/trayectoria/iris2/proc-06.jpg',    caption: 'Iris II — Terminaciones exteriores' },
+    { type: 'img', src: 'img/trayectoria/iris2/proc-07.jpg',    caption: 'Iris II — Fachada casi terminada' },
+    { type: 'img', src: 'img/trayectoria/iris2/proc-08.jpg',    caption: 'Iris II — Obra entregada · 2006' },
+  ],
+
   BIM: [
     { type: 'img', src: 'img/bim/plano-inst-109-p1.png', caption: 'INST-109 · Axonométrica red de agua fría y caliente — Armenia 498' },
     { type: 'img', src: 'img/bim/plano-inst-106-p1.png', caption: 'INST-106 · Detalles instalaciones sanitarias — Armenia 498' },
