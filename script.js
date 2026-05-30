@@ -403,7 +403,6 @@ const galleries = {
     { type: 'img', src: 'img/trayectoria/iris2/portada.jpg',    caption: 'Iris II — Edificio terminado · Corrientes 430, Córdoba · 2006' },
     { type: 'img', src: 'img/trayectoria/iris2/proc-01.jpg',    caption: 'Iris II — Excavación de pozos y pilotes' },
     { type: 'img', src: 'img/trayectoria/iris2/proc-02.jpg',    caption: 'Iris II — Colado de fundaciones' },
-    { type: 'img', src: 'img/trayectoria/iris2/proc-03.jpg',    caption: 'Iris II — Colado de losa · Cuadrilla en obra' },
     { type: 'img', src: 'img/trayectoria/iris2/proc-04.jpg',    caption: 'Iris II — Estructura avanzada' },
     { type: 'img', src: 'img/trayectoria/iris2/proc-05.jpg',    caption: 'Iris II — Mampostería e instalaciones' },
     { type: 'img', src: 'img/trayectoria/iris2/proc-06.jpg',    caption: 'Iris II — Terminaciones exteriores' },
