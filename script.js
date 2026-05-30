@@ -382,6 +382,9 @@ const galleries = {
     { type: 'img', src: 'img/trayectoria/ercilia1/proc-06.jpg',  caption: 'Ercilia I — Terminaciones interiores' },
     { type: 'img', src: 'img/trayectoria/ercilia1/proc-07.jpg',  caption: 'Ercilia I — Interior terminado' },
     { type: 'img', src: 'img/trayectoria/ercilia1/proc-08.jpg',  caption: 'Ercilia I — Obra terminada' },
+    { type: 'img', src: 'img/trayectoria/ercilia1/plano-pb.jpg',   caption: 'Ercilia I — Plano A-02 · Planta Baja · Escala 1:50' },
+    { type: 'img', src: 'img/trayectoria/ercilia1/plano-tipo.jpg',  caption: 'Ercilia I — Plano A-04 · Planta Tipo 2do a 5to · Escala 1:50' },
+    { type: 'img', src: 'img/trayectoria/ercilia1/plano-azotea.jpg', caption: 'Ercilia I — Plano A-06 · Planta Azotea · Escala 1:50' },
   ],
 
   ERCILIA2: [
@@ -406,6 +409,11 @@ const galleries = {
     { type: 'img', src: 'img/trayectoria/iris2/proc-06.jpg',    caption: 'Iris II — Terminaciones exteriores' },
     { type: 'img', src: 'img/trayectoria/iris2/proc-07.jpg',    caption: 'Iris II — Fachada casi terminada' },
     { type: 'img', src: 'img/trayectoria/iris2/proc-08.jpg',    caption: 'Iris II — Obra entregada · 2006' },
+    { type: 'img', src: 'img/trayectoria/iris2/plano-pb.jpg',     caption: 'Iris II — Plano A-02 · Planta Baja · Escala 1:50' },
+    { type: 'img', src: 'img/trayectoria/iris2/plano-tipo.jpg',    caption: 'Iris II — Plano A-03 · Planta 1er Piso · Escala 1:75' },
+    { type: 'img', src: 'img/trayectoria/iris2/plano-azotea.jpg',  caption: 'Iris II — Plano A-08 · Planta Azotea · Escala 1:75' },
+    { type: 'img', src: 'img/trayectoria/iris2/plano-corte.jpg',   caption: 'Iris II — Plano A-09 · Corte A-A · Escala 1:100' },
+    { type: 'img', src: 'img/trayectoria/iris2/plano-fachada.jpg', caption: 'Iris II — Plano A-14 · Fachada Principal · Escala 1:75' },
   ],
 
   BIM: [
