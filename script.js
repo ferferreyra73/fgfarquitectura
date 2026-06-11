@@ -464,6 +464,60 @@ const galleries = {
     { type: 'img', src: 'img/lazaro/plano-cortes.jpg',   caption: 'MM-448 · Corte A-A y B-B 1:100 — Housing Lázaro, Alta Gracia' },
     { type: 'img', src: 'img/lazaro/plano-plantas.jpg',  caption: 'MM-448 · Plantas Nivel 1, 2, 3 y Techos — Housing Lázaro, Alta Gracia' },
     { type: 'img', src: 'img/lazaro/plano-web.jpg',      caption: 'MM-448 · Plano Municipal completo — Housing Lázaro, Alta Gracia' },
+  ],
+
+  // ── CT-24 · Barrio Portales del Tala · Alta Gracia ──────────────────────
+  CT24: [
+    { type: 'img', src: 'img/ct-24/portada.jpeg',  caption: 'CT-24 — Fachada principal · Barrio Portales del Tala, Alta Gracia, 2022' },
+    { type: 'img', src: 'img/ct-24/render-01.jpg', caption: 'CT-24 — Render exterior · Alta Gracia' },
+    { type: 'img', src: 'img/ct-24/render-02.jpg', caption: 'CT-24 — Render fachada · Alta Gracia' },
+    { type: 'img', src: 'img/ct-24/render-03.jpg', caption: 'CT-24 — Render fachada nocturna · Alta Gracia' },
+    { type: 'img', src: 'img/ct-24/render-04.jpg', caption: 'CT-24 — Render vista posterior · Alta Gracia' },
+    { type: 'img', src: 'img/ct-24/render-05.jpg', caption: 'CT-24 — Render fachada nocturna · Carpintería aluminio bronce colonial' },
+  ],
+
+  // ── ESTANZUELA · Barrio La Estanzuela · La Calera ───────────────────────
+  ESTANZUELA: [
+    { type: 'img', src: 'img/estanzuela/portada.png',  caption: 'Estanzuela — Fachada principal · Barrio La Estanzuela, La Calera, 2010' },
+    { type: 'img', src: 'img/estanzuela/render-01.png', caption: 'Estanzuela — Render exterior · La Calera' },
+    { type: 'img', src: 'img/estanzuela/render-02.png', caption: 'Estanzuela — Render exterior · La Calera' },
+  ],
+
+  // ── F-2600 · Barrio San Lorenzo · Ferreyra, Córdoba ─────────────────────
+  F2600: [
+    { type: 'img', src: 'img/f-2600/portada.png', caption: 'F-2600 — Fachada terminada · Barrio San Lorenzo, Ferreyra, Córdoba, 2006' },
+    { type: 'img', src: 'img/f-2600/obra-01.jpg', caption: 'F-2600 — Avance de obra · Ferreyra, Córdoba' },
+    { type: 'img', src: 'img/f-2600/obra-02.jpg', caption: 'F-2600 — Avance de obra · Ferreyra, Córdoba' },
+    { type: 'img', src: 'img/f-2600/obra-03.jpg', caption: 'F-2600 — Avance de obra · Ferreyra, Córdoba' },
+    { type: 'img', src: 'img/f-2600/obra-04.jpg', caption: 'F-2600 — Avance de obra · Ferreyra, Córdoba' },
+  ],
+
+  // ── LA ARBOLADA · Barrio La Arbolada · Malagueño ────────────────────────
+  LAARBOLADA: [
+    { type: 'img', src: 'img/la-arbolada/portada.jpg',  caption: 'La Arbolada — Vista nocturna de fachada · Barrio La Arbolada, Malagueño, 2024' },
+    { type: 'img', src: 'img/la-arbolada/render-01.jpg', caption: 'La Arbolada — Vista posterior, galería · Malagueño' },
+    { type: 'img', src: 'img/la-arbolada/render-02.jpg', caption: 'La Arbolada — Vista lateral nocturna · Malagueño' },
+    { type: 'img', src: 'img/la-arbolada/render-03.jpg', caption: 'La Arbolada — Vista posterior, piscina · Malagueño' },
+    { type: 'img', src: 'img/la-arbolada/render-04.jpg', caption: 'La Arbolada — Interior, estar y comedor · Malagueño' },
+    { type: 'img', src: 'img/la-arbolada/render-05.jpg', caption: 'La Arbolada — Interior, cocina y estar · Malagueño' },
+  ],
+
+  // ── TALLER ESTÉTICO DEL AUTOMOTOR · Barrio San Martín · Villa Carlos Paz ─
+  TALLERESTETICO: [
+    { type: 'img', src: 'img/taller-estetico/portada.png', caption: 'Taller Estético del Automotor — Render fachada · Barrio San Martín, Villa Carlos Paz, 2016' },
+    { type: 'img', src: 'img/taller-estetico/render-01.png', caption: 'Taller Estético del Automotor — Render fachada alternativo · Villa Carlos Paz' },
+    { type: 'img', src: 'img/taller-estetico/obra-01.png', caption: 'Taller Estético del Automotor — Avance de obra · Villa Carlos Paz' },
+    { type: 'img', src: 'img/taller-estetico/obra-02.png', caption: 'Taller Estético del Automotor — Avance de obra · Villa Carlos Paz' },
+    { type: 'img', src: 'img/taller-estetico/obra-03.png', caption: 'Taller Estético del Automotor — Avance de obra · Villa Carlos Paz' },
+  ],
+
+  // ── Z-17 · Barrio La Cuesta Colorada · La Calera ────────────────────────
+  Z17: [
+    { type: 'img', src: 'img/z-17/portada.jpg', caption: 'Z-17 — Render fachada · Barrio La Cuesta Colorada, La Calera, 2008' },
+    { type: 'img', src: 'img/z-17/obra-01.jpg', caption: 'Z-17 — Avance de obra · La Calera' },
+    { type: 'img', src: 'img/z-17/obra-02.jpg', caption: 'Z-17 — Avance de obra · La Calera' },
+    { type: 'img', src: 'img/z-17/obra-03.jpg', caption: 'Z-17 — Avance de obra · La Calera' },
+    { type: 'img', src: 'img/z-17/obra-04.jpg', caption: 'Z-17 — Avance de obra · La Calera' },
   ]
 };
 
