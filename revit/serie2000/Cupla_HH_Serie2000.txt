@@ -1,0 +1,13 @@
+,Diametro_nominal##LENGTH##MILLIMETERS,W##LENGTH##MILLIMETERS,D##LENGTH##MILLIMETERS,Serie##OTHER##,Medida_comercial##OTHER##
+Cupla HH 1/8 pulg Serie 2000,6,32,16,Serie 2000,1/8 pulg
+Cupla HH 1/4 pulg Serie 2000,8,35,19,Serie 2000,1/4 pulg
+Cupla HH 3/8 pulg Serie 2000,10,48,22,Serie 2000,3/8 pulg
+Cupla HH 1/2 pulg Serie 2000,15,48,29,Serie 2000,1/2 pulg
+Cupla HH 3/4 pulg Serie 2000,20,51,35,Serie 2000,3/4 pulg
+Cupla HH 1 pulg Serie 2000,25,60,44.4,Serie 2000,1 pulg
+Cupla HH 1 1/4 pulg Serie 2000,32,67,57,Serie 2000,1 1/4 pulg
+Cupla HH 1 1/2 pulg Serie 2000,40,79,64,Serie 2000,1 1/2 pulg
+Cupla HH 2 pulg Serie 2000,50,86,76,Serie 2000,2 pulg
+Cupla HH 2 1/2 pulg Serie 2000,65,92,92,Serie 2000,2 1/2 pulg
+Cupla HH 3 pulg Serie 2000,80,108,108,Serie 2000,3 pulg
+Cupla HH 4 pulg Serie 2000,100,121,140,Serie 2000,4 pulg

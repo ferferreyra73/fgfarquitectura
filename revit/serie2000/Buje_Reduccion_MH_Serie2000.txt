@@ -1,0 +1,67 @@
+,DN_mayor##LENGTH##MILLIMETERS,DN_menor##LENGTH##MILLIMETERS,A##LENGTH##MILLIMETERS,F##LENGTH##MILLIMETERS,Serie##OTHER##,Medida_comercial##OTHER##
+Buje reduccion 1/4 x 1/8 pulg Serie 2000,8,6,11,15.88,Serie 2000,1/4 x 1/8 pulg
+Buje reduccion 3/8 x 1/8 pulg Serie 2000,10,6,13,17.46,Serie 2000,3/8 x 1/8 pulg
+Buje reduccion 3/8 x 1/4 pulg Serie 2000,10,8,13,17.46,Serie 2000,3/8 x 1/4 pulg
+Buje reduccion 1/2 x 1/8 pulg Serie 2000,15,6,14,22.23,Serie 2000,1/2 x 1/8 pulg
+Buje reduccion 1/2 x 1/4 pulg Serie 2000,15,8,14,22.23,Serie 2000,1/2 x 1/4 pulg
+Buje reduccion 1/2 x 3/8 pulg Serie 2000,15,10,14,22.23,Serie 2000,1/2 x 3/8 pulg
+Buje reduccion 3/4 x 1/8 pulg Serie 2000,20,6,16,26.99,Serie 2000,3/4 x 1/8 pulg
+Buje reduccion 3/4 x 1/4 pulg Serie 2000,20,8,16,26.99,Serie 2000,3/4 x 1/4 pulg
+Buje reduccion 3/4 x 3/8 pulg Serie 2000,20,10,16,26.99,Serie 2000,3/4 x 3/8 pulg
+Buje reduccion 3/4 x 1/2 pulg Serie 2000,20,15,16,26.99,Serie 2000,3/4 x 1/2 pulg
+Buje reduccion 1 x 1/8 pulg Serie 2000,25,6,19,34.93,Serie 2000,1 x 1/8 pulg
+Buje reduccion 1 x 1/4 pulg Serie 2000,25,8,19,34.93,Serie 2000,1 x 1/4 pulg
+Buje reduccion 1 x 3/8 pulg Serie 2000,25,10,19,34.93,Serie 2000,1 x 3/8 pulg
+Buje reduccion 1 x 1/2 pulg Serie 2000,25,15,19,34.93,Serie 2000,1 x 1/2 pulg
+Buje reduccion 1 x 3/4 pulg Serie 2000,25,20,19,34.93,Serie 2000,1 x 3/4 pulg
+Buje reduccion 1 1/4 x 1/8 pulg Serie 2000,32,6,21,44.45,Serie 2000,1 1/4 x 1/8 pulg
+Buje reduccion 1 1/4 x 1/4 pulg Serie 2000,32,8,21,44.45,Serie 2000,1 1/4 x 1/4 pulg
+Buje reduccion 1 1/4 x 3/8 pulg Serie 2000,32,10,21,44.45,Serie 2000,1 1/4 x 3/8 pulg
+Buje reduccion 1 1/4 x 1/2 pulg Serie 2000,32,15,21,44.45,Serie 2000,1 1/4 x 1/2 pulg
+Buje reduccion 1 1/4 x 3/4 pulg Serie 2000,32,20,21,44.45,Serie 2000,1 1/4 x 3/4 pulg
+Buje reduccion 1 1/4 x 1 pulg Serie 2000,32,25,21,44.45,Serie 2000,1 1/4 x 1 pulg
+Buje reduccion 1 1/2 x 1/8 pulg Serie 2000,40,6,21,50.8,Serie 2000,1 1/2 x 1/8 pulg
+Buje reduccion 1 1/2 x 1/4 pulg Serie 2000,40,8,21,50.8,Serie 2000,1 1/2 x 1/4 pulg
+Buje reduccion 1 1/2 x 3/8 pulg Serie 2000,40,10,21,50.8,Serie 2000,1 1/2 x 3/8 pulg
+Buje reduccion 1 1/2 x 1/2 pulg Serie 2000,40,15,21,50.8,Serie 2000,1 1/2 x 1/2 pulg
+Buje reduccion 1 1/2 x 3/4 pulg Serie 2000,40,20,21,50.8,Serie 2000,1 1/2 x 3/4 pulg
+Buje reduccion 1 1/2 x 1 pulg Serie 2000,40,25,21,50.8,Serie 2000,1 1/2 x 1 pulg
+Buje reduccion 1 1/2 x 1 1/4 pulg Serie 2000,40,32,21,50.8,Serie 2000,1 1/2 x 1 1/4 pulg
+Buje reduccion 2 x 1/8 pulg Serie 2000,50,6,22,63.5,Serie 2000,2 x 1/8 pulg
+Buje reduccion 2 x 1/4 pulg Serie 2000,50,8,22,63.5,Serie 2000,2 x 1/4 pulg
+Buje reduccion 2 x 3/8 pulg Serie 2000,50,10,22,63.5,Serie 2000,2 x 3/8 pulg
+Buje reduccion 2 x 1/2 pulg Serie 2000,50,15,22,63.5,Serie 2000,2 x 1/2 pulg
+Buje reduccion 2 x 3/4 pulg Serie 2000,50,20,22,63.5,Serie 2000,2 x 3/4 pulg
+Buje reduccion 2 x 1 pulg Serie 2000,50,25,22,63.5,Serie 2000,2 x 1 pulg
+Buje reduccion 2 x 1 1/4 pulg Serie 2000,50,32,22,63.5,Serie 2000,2 x 1 1/4 pulg
+Buje reduccion 2 x 1 1/2 pulg Serie 2000,50,40,22,63.5,Serie 2000,2 x 1 1/2 pulg
+Buje reduccion 2 1/2 x 1/8 pulg Serie 2000,65,6,27,76.2,Serie 2000,2 1/2 x 1/8 pulg
+Buje reduccion 2 1/2 x 1/4 pulg Serie 2000,65,8,27,76.2,Serie 2000,2 1/2 x 1/4 pulg
+Buje reduccion 2 1/2 x 3/8 pulg Serie 2000,65,10,27,76.2,Serie 2000,2 1/2 x 3/8 pulg
+Buje reduccion 2 1/2 x 1/2 pulg Serie 2000,65,15,27,76.2,Serie 2000,2 1/2 x 1/2 pulg
+Buje reduccion 2 1/2 x 3/4 pulg Serie 2000,65,20,27,76.2,Serie 2000,2 1/2 x 3/4 pulg
+Buje reduccion 2 1/2 x 1 pulg Serie 2000,65,25,27,76.2,Serie 2000,2 1/2 x 1 pulg
+Buje reduccion 2 1/2 x 1 1/4 pulg Serie 2000,65,32,27,76.2,Serie 2000,2 1/2 x 1 1/4 pulg
+Buje reduccion 2 1/2 x 1 1/2 pulg Serie 2000,65,40,27,76.2,Serie 2000,2 1/2 x 1 1/2 pulg
+Buje reduccion 2 1/2 x 2 pulg Serie 2000,65,50,27,76.2,Serie 2000,2 1/2 x 2 pulg
+Buje reduccion 3 x 1/8 pulg Serie 2000,80,6,28,88.9,Serie 2000,3 x 1/8 pulg
+Buje reduccion 3 x 1/4 pulg Serie 2000,80,8,28,88.9,Serie 2000,3 x 1/4 pulg
+Buje reduccion 3 x 3/8 pulg Serie 2000,80,10,28,88.9,Serie 2000,3 x 3/8 pulg
+Buje reduccion 3 x 1/2 pulg Serie 2000,80,15,28,88.9,Serie 2000,3 x 1/2 pulg
+Buje reduccion 3 x 3/4 pulg Serie 2000,80,20,28,88.9,Serie 2000,3 x 3/4 pulg
+Buje reduccion 3 x 1 pulg Serie 2000,80,25,28,88.9,Serie 2000,3 x 1 pulg
+Buje reduccion 3 x 1 1/4 pulg Serie 2000,80,32,28,88.9,Serie 2000,3 x 1 1/4 pulg
+Buje reduccion 3 x 1 1/2 pulg Serie 2000,80,40,28,88.9,Serie 2000,3 x 1 1/2 pulg
+Buje reduccion 3 x 2 pulg Serie 2000,80,50,28,88.9,Serie 2000,3 x 2 pulg
+Buje reduccion 3 x 2 1/2 pulg Serie 2000,80,65,28,88.9,Serie 2000,3 x 2 1/2 pulg
+Buje reduccion 4 x 1/8 pulg Serie 2000,100,6,32,117.48,Serie 2000,4 x 1/8 pulg
+Buje reduccion 4 x 1/4 pulg Serie 2000,100,8,32,117.48,Serie 2000,4 x 1/4 pulg
+Buje reduccion 4 x 3/8 pulg Serie 2000,100,10,32,117.48,Serie 2000,4 x 3/8 pulg
+Buje reduccion 4 x 1/2 pulg Serie 2000,100,15,32,117.48,Serie 2000,4 x 1/2 pulg
+Buje reduccion 4 x 3/4 pulg Serie 2000,100,20,32,117.48,Serie 2000,4 x 3/4 pulg
+Buje reduccion 4 x 1 pulg Serie 2000,100,25,32,117.48,Serie 2000,4 x 1 pulg
+Buje reduccion 4 x 1 1/4 pulg Serie 2000,100,32,32,117.48,Serie 2000,4 x 1 1/4 pulg
+Buje reduccion 4 x 1 1/2 pulg Serie 2000,100,40,32,117.48,Serie 2000,4 x 1 1/2 pulg
+Buje reduccion 4 x 2 pulg Serie 2000,100,50,32,117.48,Serie 2000,4 x 2 pulg
+Buje reduccion 4 x 2 1/2 pulg Serie 2000,100,65,32,117.48,Serie 2000,4 x 2 1/2 pulg
+Buje reduccion 4 x 3 pulg Serie 2000,100,80,32,117.48,Serie 2000,4 x 3 pulg
