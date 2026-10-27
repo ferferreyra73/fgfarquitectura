@@ -1,0 +1,43 @@
+,Diametro_nominal##LENGTH##MILLIMETERS,Diametro_exterior##LENGTH##MILLIMETERS,Espesor_Sch40##LENGTH##MILLIMETERS,Largo##LENGTH##CENTIMETERS,Serie##OTHER##,Medida_comercial##OTHER##
+Niple 1/2 pulg x 6.5 cm Serie 2000,15,21.3,2.77,6.5,Serie 2000,1/2 pulg x 6.5 cm
+Niple 1/2 pulg x 7.5 cm Serie 2000,15,21.3,2.77,7.5,Serie 2000,1/2 pulg x 7.5 cm
+Niple 1/2 pulg x 10 cm Serie 2000,15,21.3,2.77,10,Serie 2000,1/2 pulg x 10 cm
+Niple 1/2 pulg x 12.5 cm Serie 2000,15,21.3,2.77,12.5,Serie 2000,1/2 pulg x 12.5 cm
+Niple 1/2 pulg x 15 cm Serie 2000,15,21.3,2.77,15,Serie 2000,1/2 pulg x 15 cm
+Niple 1/2 pulg x 20 cm Serie 2000,15,21.3,2.77,20,Serie 2000,1/2 pulg x 20 cm
+Niple 1/2 pulg x 30 cm Serie 2000,15,21.3,2.77,30,Serie 2000,1/2 pulg x 30 cm
+Niple 3/4 pulg x 6.5 cm Serie 2000,20,26.7,2.87,6.5,Serie 2000,3/4 pulg x 6.5 cm
+Niple 3/4 pulg x 7.5 cm Serie 2000,20,26.7,2.87,7.5,Serie 2000,3/4 pulg x 7.5 cm
+Niple 3/4 pulg x 10 cm Serie 2000,20,26.7,2.87,10,Serie 2000,3/4 pulg x 10 cm
+Niple 3/4 pulg x 12.5 cm Serie 2000,20,26.7,2.87,12.5,Serie 2000,3/4 pulg x 12.5 cm
+Niple 3/4 pulg x 15 cm Serie 2000,20,26.7,2.87,15,Serie 2000,3/4 pulg x 15 cm
+Niple 3/4 pulg x 20 cm Serie 2000,20,26.7,2.87,20,Serie 2000,3/4 pulg x 20 cm
+Niple 3/4 pulg x 30 cm Serie 2000,20,26.7,2.87,30,Serie 2000,3/4 pulg x 30 cm
+Niple 1 pulg x 6.5 cm Serie 2000,25,33.4,3.38,6.5,Serie 2000,1 pulg x 6.5 cm
+Niple 1 pulg x 7.5 cm Serie 2000,25,33.4,3.38,7.5,Serie 2000,1 pulg x 7.5 cm
+Niple 1 pulg x 10 cm Serie 2000,25,33.4,3.38,10,Serie 2000,1 pulg x 10 cm
+Niple 1 pulg x 12.5 cm Serie 2000,25,33.4,3.38,12.5,Serie 2000,1 pulg x 12.5 cm
+Niple 1 pulg x 15 cm Serie 2000,25,33.4,3.38,15,Serie 2000,1 pulg x 15 cm
+Niple 1 pulg x 20 cm Serie 2000,25,33.4,3.38,20,Serie 2000,1 pulg x 20 cm
+Niple 1 pulg x 30 cm Serie 2000,25,33.4,3.38,30,Serie 2000,1 pulg x 30 cm
+Niple 1 1/4 pulg x 6.5 cm Serie 2000,32,42.2,3.56,6.5,Serie 2000,1 1/4 pulg x 6.5 cm
+Niple 1 1/4 pulg x 7.5 cm Serie 2000,32,42.2,3.56,7.5,Serie 2000,1 1/4 pulg x 7.5 cm
+Niple 1 1/4 pulg x 10 cm Serie 2000,32,42.2,3.56,10,Serie 2000,1 1/4 pulg x 10 cm
+Niple 1 1/4 pulg x 12.5 cm Serie 2000,32,42.2,3.56,12.5,Serie 2000,1 1/4 pulg x 12.5 cm
+Niple 1 1/4 pulg x 15 cm Serie 2000,32,42.2,3.56,15,Serie 2000,1 1/4 pulg x 15 cm
+Niple 1 1/4 pulg x 20 cm Serie 2000,32,42.2,3.56,20,Serie 2000,1 1/4 pulg x 20 cm
+Niple 1 1/4 pulg x 30 cm Serie 2000,32,42.2,3.56,30,Serie 2000,1 1/4 pulg x 30 cm
+Niple 1 1/2 pulg x 6.5 cm Serie 2000,40,48.3,3.68,6.5,Serie 2000,1 1/2 pulg x 6.5 cm
+Niple 1 1/2 pulg x 7.5 cm Serie 2000,40,48.3,3.68,7.5,Serie 2000,1 1/2 pulg x 7.5 cm
+Niple 1 1/2 pulg x 10 cm Serie 2000,40,48.3,3.68,10,Serie 2000,1 1/2 pulg x 10 cm
+Niple 1 1/2 pulg x 12.5 cm Serie 2000,40,48.3,3.68,12.5,Serie 2000,1 1/2 pulg x 12.5 cm
+Niple 1 1/2 pulg x 15 cm Serie 2000,40,48.3,3.68,15,Serie 2000,1 1/2 pulg x 15 cm
+Niple 1 1/2 pulg x 20 cm Serie 2000,40,48.3,3.68,20,Serie 2000,1 1/2 pulg x 20 cm
+Niple 1 1/2 pulg x 30 cm Serie 2000,40,48.3,3.68,30,Serie 2000,1 1/2 pulg x 30 cm
+Niple 2 pulg x 6.5 cm Serie 2000,50,60.3,3.91,6.5,Serie 2000,2 pulg x 6.5 cm
+Niple 2 pulg x 7.5 cm Serie 2000,50,60.3,3.91,7.5,Serie 2000,2 pulg x 7.5 cm
+Niple 2 pulg x 10 cm Serie 2000,50,60.3,3.91,10,Serie 2000,2 pulg x 10 cm
+Niple 2 pulg x 12.5 cm Serie 2000,50,60.3,3.91,12.5,Serie 2000,2 pulg x 12.5 cm
+Niple 2 pulg x 15 cm Serie 2000,50,60.3,3.91,15,Serie 2000,2 pulg x 15 cm
+Niple 2 pulg x 20 cm Serie 2000,50,60.3,3.91,20,Serie 2000,2 pulg x 20 cm
+Niple 2 pulg x 30 cm Serie 2000,50,60.3,3.91,30,Serie 2000,2 pulg x 30 cm
