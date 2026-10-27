@@ -1,0 +1,12 @@
+,Diametro_nominal##LENGTH##MILLIMETERS,A##LENGTH##MILLIMETERS,B##LENGTH##MILLIMETERS,Entrecara##LENGTH##MILLIMETERS,C##LENGTH##MILLIMETERS,Serie##OTHER##,Medida_comercial##OTHER##
+Entrerrosca 1/4 pulg 3000 lb,8,30,7,16,7,3000 lb,1/4 pulg
+Entrerrosca 3/8 pulg 3000 lb,10,42,9,17.5,12,3000 lb,3/8 pulg
+Entrerrosca 1/2 pulg 3000 lb,15,47,11,22,13,3000 lb,1/2 pulg
+Entrerrosca 3/4 pulg 3000 lb,20,52,14,27,15,3000 lb,3/4 pulg
+Entrerrosca 1 pulg 3000 lb,25,57,19,36.5,20,3000 lb,1 pulg
+Entrerrosca 1 1/4 pulg 3000 lb,32,72,32.5,46,32,3000 lb,1 1/4 pulg
+Entrerrosca 1 1/2 pulg 3000 lb,40,74,38,51,38,3000 lb,1 1/2 pulg
+Entrerrosca 2 pulg 3000 lb,50,78,49,63.5,49,3000 lb,2 pulg
+Entrerrosca 2 1/2 pulg 3000 lb,65,104,59,76,58,3000 lb,2 1/2 pulg
+Entrerrosca 3 pulg 3000 lb,80,108,73.5,94,73,3000 lb,3 pulg
+Entrerrosca 4 pulg 3000 lb,100,125,97,117.5,97,3000 lb,4 pulg
