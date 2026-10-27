@@ -1,12 +1,13 @@
-,Diametro_nominal##LENGTH##MILLIMETERS,A##LENGTH##MILLIMETERS,B##LENGTH##MILLIMETERS,L2##LENGTH##MILLIMETERS,Serie##OTHER##,Medida_comercial##OTHER##
-Codo 90 HH 1/4 pulg Serie 2000,8,21,22,10.2,Serie 2000,1/4 pulg
-Codo 90 HH 3/8 pulg Serie 2000,10,25,25,10.4,Serie 2000,3/8 pulg
-Codo 90 HH 1/2 pulg Serie 2000,15,28,33,13.6,Serie 2000,1/2 pulg
-Codo 90 HH 3/4 pulg Serie 2000,20,33,38,13.9,Serie 2000,3/4 pulg
-Codo 90 HH 1 pulg Serie 2000,25,38,46,17.3,Serie 2000,1 pulg
-Codo 90 HH 1 1/4 pulg Serie 2000,32,44,56,18,Serie 2000,1 1/4 pulg
-Codo 90 HH 1 1/2 pulg Serie 2000,40,51,62,18.4,Serie 2000,1 1/2 pulg
-Codo 90 HH 2 pulg Serie 2000,50,60,75,19.2,Serie 2000,2 pulg
-Codo 90 HH 2 1/2 pulg Serie 2000,65,76,92,28.9,Serie 2000,2 1/2 pulg
-Codo 90 HH 3 pulg Serie 2000,80,86,109,30.5,Serie 2000,3 pulg
-Codo 90 HH 4 pulg Serie 2000,100,106,146,33,Serie 2000,4 pulg
+,Diametro_nominal##LENGTH##MILLIMETERS,A##LENGTH##MILLIMETERS,B##LENGTH##MILLIMETERS,Serie##OTHER##,Medida_comercial##OTHER##
+Codo 90 HH 1/8 pulg Serie 2000,6,21,22,Serie 2000,1/8 pulg
+Codo 90 HH 1/4 pulg Serie 2000,8,21,22,Serie 2000,1/4 pulg
+Codo 90 HH 3/8 pulg Serie 2000,10,25,25,Serie 2000,3/8 pulg
+Codo 90 HH 1/2 pulg Serie 2000,15,29,33,Serie 2000,1/2 pulg
+Codo 90 HH 3/4 pulg Serie 2000,20,33,38,Serie 2000,3/4 pulg
+Codo 90 HH 1 pulg Serie 2000,25,38,46,Serie 2000,1 pulg
+Codo 90 HH 1 1/4 pulg Serie 2000,32,44,56,Serie 2000,1 1/4 pulg
+Codo 90 HH 1 1/2 pulg Serie 2000,40,51,62,Serie 2000,1 1/2 pulg
+Codo 90 HH 2 pulg Serie 2000,50,60,75,Serie 2000,2 pulg
+Codo 90 HH 2 1/2 pulg Serie 2000,65,76,92,Serie 2000,2 1/2 pulg
+Codo 90 HH 3 pulg Serie 2000,80,86,110,Serie 2000,3 pulg
+Codo 90 HH 4 pulg Serie 2000,100,106,146,Serie 2000,4 pulg

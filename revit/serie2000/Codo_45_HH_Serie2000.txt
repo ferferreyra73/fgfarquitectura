@@ -1,12 +1,13 @@
-,Diametro_nominal##LENGTH##MILLIMETERS,C##LENGTH##MILLIMETERS,H##LENGTH##MILLIMETERS,Serie##OTHER##,Medida_comercial##OTHER##
+,Diametro_nominal##LENGTH##MILLIMETERS,A##LENGTH##MILLIMETERS,B##LENGTH##MILLIMETERS,Serie##OTHER##,Medida_comercial##OTHER##
+Codo 45 HH 1/8 pulg Serie 2000,6,17,22,Serie 2000,1/8 pulg
 Codo 45 HH 1/4 pulg Serie 2000,8,17,22,Serie 2000,1/4 pulg
 Codo 45 HH 3/8 pulg Serie 2000,10,19,25,Serie 2000,3/8 pulg
 Codo 45 HH 1/2 pulg Serie 2000,15,22,33,Serie 2000,1/2 pulg
 Codo 45 HH 3/4 pulg Serie 2000,20,25,38,Serie 2000,3/4 pulg
-Codo 45 HH 1 pulg Serie 2000,25,28,46,Serie 2000,1 pulg
+Codo 45 HH 1 pulg Serie 2000,25,29,46,Serie 2000,1 pulg
 Codo 45 HH 1 1/4 pulg Serie 2000,32,33,56,Serie 2000,1 1/4 pulg
 Codo 45 HH 1 1/2 pulg Serie 2000,40,35,62,Serie 2000,1 1/2 pulg
 Codo 45 HH 2 pulg Serie 2000,50,43,75,Serie 2000,2 pulg
 Codo 45 HH 2 1/2 pulg Serie 2000,65,52,92,Serie 2000,2 1/2 pulg
-Codo 45 HH 3 pulg Serie 2000,80,64,109,Serie 2000,3 pulg
+Codo 45 HH 3 pulg Serie 2000,80,64,110,Serie 2000,3 pulg
 Codo 45 HH 4 pulg Serie 2000,100,79,146,Serie 2000,4 pulg
