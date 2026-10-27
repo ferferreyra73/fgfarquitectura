@@ -1,0 +1,11 @@
+,Diametro_nominal##LENGTH##MILLIMETERS,A##LENGTH##MILLIMETERS,B##LENGTH##MILLIMETERS,Serie##OTHER##,Medida_comercial##OTHER##
+Union doble HH 1/4 pulg 3000 lb,8,50.8,41.4,3000 lb,1/4 pulg
+Union doble HH 3/8 pulg 3000 lb,10,55.88,45.97,3000 lb,3/8 pulg
+Union doble HH 1/2 pulg 3000 lb,15,57.5,49.02,3000 lb,1/2 pulg
+Union doble HH 3/4 pulg 3000 lb,20,66.04,56.9,3000 lb,3/4 pulg
+Union doble HH 1 pulg 3000 lb,25,78.74,61.98,3000 lb,1 pulg
+Union doble HH 1 1/4 pulg 3000 lb,32,93.98,71.12,3000 lb,1 1/4 pulg
+Union doble HH 1 1/2 pulg 3000 lb,40,111.76,76.45,3000 lb,1 1/2 pulg
+Union doble HH 2 pulg 3000 lb,50,132.08,86.11,3000 lb,2 pulg
+Union doble HH 2 1/2 pulg 3000 lb,65,149.86,102.36,3000 lb,2 1/2 pulg
+Union doble HH 3 pulg 3000 lb,80,175.26,108.97,3000 lb,3 pulg
